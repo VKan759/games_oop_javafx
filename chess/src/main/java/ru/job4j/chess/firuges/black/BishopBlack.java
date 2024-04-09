@@ -16,7 +16,6 @@ public class BishopBlack implements Figure {
         return position;
     }
 
-
     @Override
     public Cell[] way(Cell dest) {
         if (!isDiagonal(position, dest)) {

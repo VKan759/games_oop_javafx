@@ -25,7 +25,6 @@ class BishopBlackTest {
         assertThat(copy.position()).isEqualByComparingTo(Cell.G5);
     }
 
-
     @Test
     void wayIsAvailable() {
         Figure bishopBlack = new BishopBlack(Cell.C1);
